@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="875.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="michaeltadeo.View_Controller.AppointmentsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e6eef8" height="853.0" layoutX="13.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="975.0" />
+      <TableView fx:id="upperTable" editable="true" layoutX="75.0" layoutY="90.0" prefHeight="295.0" prefWidth="850.0">
+         <columns>
+            <TableColumn fx:id="startColumn" prefWidth="110.0" text="Start" />
+            <TableColumn fx:id="endColumn" prefWidth="110.0" text="End" />
+            <TableColumn fx:id="titleColumn" prefWidth="125.0" text="Title" />
+            <TableColumn fx:id="customerColumn" prefWidth="135.0" text="Customer" />
+            <TableColumn fx:id="consultantColumn" text="Consultant" />
+            <TableColumn fx:id="typeColumn" prefWidth="115.0" text="Type" />
+            <TableColumn fx:id="descriptionColumn" prefWidth="180.0" text="Description" />
+         </columns>
+      </TableView>
+      <TreeTableView fx:id="lowerTable" layoutX="75.0" layoutY="480.0" prefHeight="295.0" prefWidth="850.0">
+        <columns>
+          <TreeTableColumn fx:id="monthTreeColumn" prefWidth="150.0" />
+          <TreeTableColumn fx:id="startTreeColumn" prefWidth="110.0" text="Start" />
+            <TreeTableColumn fx:id="endTreeColumn" prefWidth="110.0" text="End" />
+            <TreeTableColumn fx:id="titleTreeColumn" prefWidth="125.0" text="Title" />
+            <TreeTableColumn fx:id="customerTreeColumn" prefWidth="135.0" text="Customer" />
+            <TreeTableColumn fx:id="consultantTreeColumn" text="Consultant" />
+            <TreeTableColumn fx:id="typeTreeColumn" prefWidth="115.0" text="Type" />
+        </columns>
+      </TreeTableView>
+      <HBox alignment="CENTER" fillHeight="false" layoutX="88.0" layoutY="785.0" prefHeight="35.0" prefWidth="825.0" spacing="20.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="View by">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="15.0" />
+               </font>
+            </Text>
+            <RadioButton fx:id="monthButton" mnemonicParsing="false" onAction="#monthButtonPushed" selected="true" text="Month">
+               <font>
+                  <Font name="Helvetica Neue" size="13.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="weekMonth" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="weekButton" mnemonicParsing="false" onAction="#weekButtonPushed" text="Week" toggleGroup="$weekMonth">
+               <font>
+                  <Font name="Helvetica Neue" size="13.0" />
+               </font>
+            </RadioButton>
+            <CheckBox fx:id="consultationBox" mnemonicParsing="false" selected="true" text="Consultation">
+               <font>
+                  <Font name="Helvetica Neue" size="12.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="clientIntakeBox" mnemonicParsing="false" selected="true" text="Client Intake">
+               <font>
+                  <Font name="Helvetica Neue" size="12.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="phoneInterviewBox" mnemonicParsing="false" selected="true" text="Phone Interview">
+               <font>
+                  <Font name="Helvetica Neue" size="12.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="accountClosureBox" mnemonicParsing="false" selected="true" text="Account Closure">
+               <font>
+                  <Font name="Helvetica Neue" size="12.0" />
+               </font>
+            </CheckBox>
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#filterButtonPushed" prefHeight="20.0" prefWidth="100.0" text="Filter">
+               <font>
+                  <Font name="Helvetica Neue" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Text fill="#000000a4" layoutX="100.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Filter Appointment View">
+         <font>
+            <Font name="Helvetica Neue" size="13.5" />
+         </font>
+      </Text>
+      <HBox alignment="CENTER" layoutX="320.0" layoutY="400.0" spacing="30.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#newButtonPushed" prefHeight="20.0" prefWidth="100.0" text="New">
+               <font>
+                  <Font name="Helvetica Neue" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#modifyButtonPushed" prefHeight="20.0" prefWidth="100.0" text="Modify">
+               <font>
+                  <Font name="Helvetica Neue" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#deleteButtonPushed" prefHeight="20.0" prefWidth="100.0" text="Delete">
+               <font>
+                  <Font name="Helvetica Neue" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Button layoutX="680.0" layoutY="55.0" mnemonicParsing="false" onAction="#customerButtonPushed" prefHeight="20.0" prefWidth="100.0" text="Customers">
+         <font>
+            <Font name="Helvetica Neue" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="795.0" layoutY="55.0" mnemonicParsing="false" onAction="#insightsButtonPushed" prefHeight="20.0" prefWidth="100.0" text="Insights">
+         <font>
+            <Font name="Helvetica Neue" size="13.0" />
+         </font>
+      </Button>
+      <Text fill="GREY" layoutX="23.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scheduler">
+         <font>
+            <Font name="Helvetica Neue Bold" size="12.0" />
+         </font>
+      </Text>
+      <Button layoutX="950.0" layoutY="30.0" mnemonicParsing="false" onAction="#xButtonPushed" text="X">
+         <font>
+            <Font name="Helvetica Neue" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="resultLabel" layoutX="88.0" layoutY="820.0">
+         <font>
+            <Font name="Helvetica Neue" size="10.0" />
+         </font>
+      </Label>
+      <Line endX="391.0" layoutX="501.0" layoutY="437.0" opacity="0.12" startX="-392.0" />
+      <Text layoutX="100.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Appointments">
+         <font>
+            <Font name="Helvetica Neue Bold" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

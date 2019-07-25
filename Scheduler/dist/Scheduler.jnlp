@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Scheduler.jnlp">
+    <information>
+        <title>Scheduler</title>
+        <vendor>tadeo</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="10.0.2+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Scheduler.jar" size="56406" download="eager"/>
+        <jar href="lib/c3p0-0.9.1-pre6.jar" size="531005" download="eager"/>
+        <jar href="lib/jboss-common-jdbc-wrapper-src.jar" size="35342" download="eager"/>
+        <jar href="lib/jboss-common-jdbc-wrapper.jar" size="50184" download="eager"/>
+        <jar href="lib/mysql-connector-java-5.1.23-bin.jar" size="834091" download="eager"/>
+        <jar href="lib/mysql-connector-java-8.0.15.jar" size="2134905" download="eager"/>
+        <jar href="lib/protobuf-java-3.6.1.jar" size="1421323" download="eager"/>
+        <jar href="lib/slf4j-api-1.6.1.jar" size="25496" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="michaeltadeo.Scheduler" name="Scheduler"/>
+</jnlp>
+

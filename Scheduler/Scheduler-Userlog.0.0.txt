@@ -1,0 +1,80 @@
+Apr 09, 2019 6:42:47 PM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: Michael logged in
+Apr 10, 2019 10:25:37 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: Michael logged in
+Apr 10, 2019 12:02:41 PM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: Michael logged in
+Apr 16, 2019 2:38:39 PM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: Michael logged in
+Apr 16, 2019 2:41:18 PM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 5:35:46 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 8:13:45 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 8:16:25 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 8:20:02 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 8:21:52 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 8:27:13 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 8:28:16 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 8:29:21 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 8:30:44 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 8:56:50 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:00:42 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:04:29 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:10:49 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:13:56 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:15:15 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:16:15 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:17:19 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:21:34 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:24:04 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:26:07 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:30:46 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:34:01 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:36:01 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:36:16 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:38:00 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:38:14 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: Chris logged in
+Apr 17, 2019 9:38:41 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: Chris logged in
+Apr 17, 2019 9:39:56 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:47:06 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: Michael logged in
+Apr 17, 2019 9:49:46 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: Michael logged in
+Apr 17, 2019 9:51:09 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: Michael logged in
+Apr 17, 2019 9:51:29 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:56:51 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 17, 2019 9:58:00 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
+Apr 20, 2019 6:00:49 AM michaeltadeo.View_Controller.LoginController loginButtonPushed
+INFO: test logged in
